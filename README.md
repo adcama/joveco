@@ -1,80 +1,110 @@
-# joveco
-#Projecte creat per Adrià Cabrera Martínez, alumne de SMX 2 de l'Institut de
-#Palamós.
-Context
-Fruites Joan és un supermercat local (~90 m²) nascut de l’experiència de Joan Serra,
-que produeix i ven fruita i verdura de proximitat. Ja disposen d’un ERP (Odoo)
-per a vendes, estoc, compres i facturació a la botiga, però el camp encara no està
-digitalitzat (reg manual, sense sensors ni registres). El propòsit general és
-connectar “el camp” amb “la botiga” mitjançant un sistema informatitzat i
-automatitzat.
+# Projecte Fruites Joan: Integració del Camp i Botiga
 
-Objectiu del projecte (què es vol assolir)
-Connectar la producció agrícola amb Odoo, automatitzar el reg i el control de
-maduració, millorar la planificació per reduir minves, desplegar infraestructura
-elèctrica i de dades al camp, i fer-ho de manera sostenible (plaques solars
-i bateries).
-Abast
-Fase 1 – Infraestructura: plaques solars + bateries; xarxa de sensors (LoRa
-o Wi-Fi) fins a un servidor local; servidor integrat amb Odoo; connexió
-segura camp-botiga.
-Fase 2 – Sensorització i automatització: sensors d’humitat de sòl,
-temperatura i maduració; reg automàtic amb vàlvules i microcontroladors
-(Raspberry Pi/Arduino); sistema d’alertes per missatge/correu.	
-Fase 3 – Integració amb Odoo: mòdul a Odoo per visualitzar dades IoT; registre 
-automàtic de collites i quantitats; vincle amb la previsió d’estoc a la botiga.
-Fase 4 – Formació i optimització: formació al personal; ajust d’umbrals de reg
- i sensors segons estació i cultiu.	
-El que JO he de fer:
+**Fruites Joan** és un supermercat local amb un fort compromís amb la proximitat i la sostenibilitat. L'objectiu del projecte és millorar la producció agrícola mitjançant la digitalització i automatització del procés, connectant el **camp** amb la **botiga** de manera eficient i sostenible.
 
-1) Infraestructura
+---
 
-Dimensionar i instal·lar plaques solars i bateries per als equips de camp.
+## 📋 **Objectiu del projecte**
 
+El projecte té com a objectiu principal **connectar la producció agrícola amb Odoo** i automatitzar diversos processos del camp. Alguns dels objectius específics inclouen:
 
-Dissenyar i desplegar la xarxa de dades (LoRa o Wi-Fi) fins al servidor.
+- **Automatització del reg i control de maduració**
+- **Millorar la planificació de la producció per reduir les minves**
+- **Desplegar infraestructura elèctrica i de dades al camp, amb font d’energia sostenible** (plaques solars i bateries)
+  
+---
 
+## 🛠️ **Fases del projecte**
 
-Muntar/configurar el servidor i enllaçar-lo amb Odoo.
+### Fase 1: Infraestructura
 
+1. **Dimensionament i instal·lació de plaques solars i bateries**
+   - S'ha de garantir l'autosuficiència energètica per als equips del camp.
 
-Configurar una VPN o túnel segur entre camp i supermercat.
+2. **Desplegament de xarxa de dades**
+   - Es definirà si es farà mitjançant **LoRa** o **Wi-Fi**, per connectar tots els sensors amb el servidor local.
 
+3. **Configuració del servidor**
+   - Montatge i configuració del servidor, integrant-lo amb **Odoo** per a la visualització i gestió de les dades.
 
-2) Sensorització i control
+4. **Creació de connexió segura**
+   - Establir una connexió segura **camp-botiga** mitjançant un túnel VPN o una altra solució segura.
 
-Seleccionar, cablejar i calibrar sensors: humitat de sòl, temperatura i 
-maduració.
+---
 
+### Fase 2: Sensorització i Automització
 
-Instal·lar vàlvules elèctriques i programar el reg automàtic 
-(Raspberry Pi/Arduino).
+1. **Selecció i calibratge de sensors**
+   - Sensors d’humitat de sòl, temperatura i maduració per a una mesura precisa de les condicions agrícoles.
 
+2. **Instal·lació de sistemes de reg automàtic**
+   - Instal·lació de vàlvules elèctriques i programació dels sistemes de reg amb microcontroladors (**Raspberry Pi** o **Arduino**).
 
-Implementar alertes automàtiques (SMS/correu) davant anomalies.
+3. **Implementació d'un sistema d'alertes automàtiques**
+   - Notificacions via SMS o correu electrònic davant anomalies com sobrecàrregues, escassetat d’aigua, o altres situacions crítiques.
 
+---
 
-3) Programari i integració
+### Fase 3: Integració amb Odoo
 
-Desenvolupar un mòdul a Odoo per visualitzar dades IoT en temps (quasi) real.
+1. **Desenvolupament d'un mòdul Odoo**
+   - Crear un mòdul personalitzat a **Odoo** per visualitzar les dades de **IoT** en temps real.
 
+2. **Automatització del registre de collites**
+   - Quan es realitza la collita, les dades (quantitats i tipus de fruita) es registren automàticament a Odoo.
 
-Automatitzar l’alta de collites/quantitats estimades.
+3. **Integració amb la previsió d’estoc de la botiga**
+   - Les dades sobre la producció s’utilitzaran per ajustar la previsió d’estoc de la botiga, reduint les minves i millorant l'eficiència.
 
+---
 
-Connectar aquestes dades amb la previsió d’estoc de la botiga.
+### Fase 4: Tancament i Millora Contínua
 
+1. **Formació i documentació**
+   - Preparació d’una **guia ràpida** i sessions de formació per a **Joan** i el seu equip per garantir un ús òptim de les noves eines.
 
-4) Tancament i millora contínua
+2. **Ajust de paràmetres i optimització**
+   - Ajustament de **umbrals de reg** i **configuració de sensors** segons les necessitats de cada estació i tipus de cultiu.
 
-Preparar una guia ràpida i formar en Joan i l’equip.
+---
 
+## 📈 **Indicadors d’èxit esperats**
 
-Ajustar umbrals i horaris de reg segons resultats i temporada.
+- **Reducció del consum d’aigua**: Fins a un **30% menys** gràcies a la gestió automatitzada del reg.
+- **Menys minves per collites mal planificades**: El control de maduració i la previsió de producció permeten planificar millor la collita.
+- **Dades històriques per a la planificació futura**: El sistema generarà dades valuoses que milloraran la previsió de cultius futurs.
+- **Gestió integrada del camp i la botiga**: La connexió directa entre el camp i la botiga garanteix una gestió més eficient de les operacions.
 
+---
 
-Indicadors d’èxit esperats: fins a un 30 % menys consum d’aigua, menys minves
-per collita fora de temps, dades històriques per planificació i una gestió
-integrada camp-botiga.
+## 🔧 **El que faig**
 
+### 1. **Infraestructura**
+- Dimensionament i instal·lació de **plaques solars i bateries**
+- Desplegament de **xarxa de dades** fins al servidor
+- Configuració del **servidor** i la seva integració amb **Odoo**
+  
+### 2. **Sensorització i Control**
+- Selecció i instal·lació de **sensors** d’humitat de sòl, temperatura i maduració
+- Instal·lació de **vàlvules elèctriques** i programació de **reg automàtic**
+- Implementació d'un sistema d’**alertes automàtiques**
+
+### 3. **Programari i Integració**
+- Desenvolupament del **mòdul Odoo** per visualitzar dades en temps real
+- **Automatització de l’alta de collites** i vincle amb la previsió d’estoc
+
+### 4. **Tancament i Millora Contínua**
+- Preparació de la **guia ràpida** i formació al personal
+- Ajust d’**umbrals i horaris de reg** segons els resultats i la temporada
+
+---
+
+## 🌱 **Sostenibilitat i Futur**
+
+L'ús de **plaques solars** i **bateries** no només millora l'eficiència energètica del sistema, sinó que també fa que el projecte sigui **més sostenible**, reduint la petjada de carboni. Aquest enfocament sostenible és fonamental per aconseguir un **futur més verd** i eficient, tant per al camp com per a la botiga.
+
+---
+
+### 🚀 **Endavant!**
+Amb aquest projecte, Fruites Joan estarà un pas més a prop de convertir-se en un exemple de **gestió agrícola intel·ligent i sostenible**, garantint una millor qualitat dels seus productes i una millor experiència per als seus clients.
 
