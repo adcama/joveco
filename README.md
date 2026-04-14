@@ -25,9 +25,9 @@ Com a projecte final de cicle d'SMR, el meu objectiu és dissenyar i desplegar l
 * El manteniment mecànic de vehicles de repartiment.
 * El disseny gràfic de campanyes de màrqueting.
 
-## 📅 Fases i Fites (Milestones)
+##  Fases i Fites (Milestones)
 1.  **Anàlisi i Planificació:** Definició del context, abast i creació del repositori.
-2.  **Disseny i Infraestructura:** Configuració del hosting, SSL i base de dades.
+2.  **Disseny i Infraestructura:** Gestió de Hosting, planificació d'infraestructura dins del supermercat i gestió de base de dades.
 3.  **Implementació:** Instal·lació de WordPress, WooCommerce i Dolibarr.
 4.  **Desenvolupament i Proves:** Integració del connector, TPV i script PHP.
 5.  **Documentació:** Redacció de la memòria tècnica i presentació final.
