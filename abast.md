@@ -14,7 +14,7 @@ Sincronització de Canals: Configuració de la integració automàtica entre Woo
 
 Infraestructura de Botiga Física (TPV): Configuració de la terminal de punt de venda web perquè les vendes presencials restin l'estoc del sistema central en temps real.
 
-Mòdul de Programació (PHP): Creació d'un script en PHP que simuli l'entrada de dades dels sensors del camp per mostrar-les al panell d'administració.
+PHP PENDENT DE CONFIRMAR
 
 Queda fora de l'abast (Fases futures o externes):
 
