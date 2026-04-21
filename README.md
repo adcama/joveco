@@ -8,7 +8,9 @@ Davant l'augment de la demanda de productes sans i la necessitat de modernitzaci
 Per això, incorporarem un sistema informàtic a l'altura del mercat amb les següents característiques:
 
 ### Què inclou aquest projecte:
+
 FASE 1:
+
 * **Presència digital:** Creació d'una pàgina web corporativa i una botiga en línia (*e-commerce*).
 * **Gestió integral (ERP):** Implementació d'un sistema de gestió via web per controlar nòmines, punts de venda (TPV), factures i horaris del personal.
 * **Infraestructura física:** Planificació i instal·lació a la botiga de xarxa Wi-Fi per a clients, càmeres de seguretat, terminals de venda i un tallafoc (*firewall*) físic per protegir la xarxa.
