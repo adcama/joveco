@@ -15,7 +15,9 @@ FASE 1:
 * **Gestió integral (ERP):** Implementació d'un sistema de gestió via web per controlar nòmines, punts de venda (TPV), factures i horaris del personal.
 * **Infraestructura física:** Planificació i instal·lació a la botiga de xarxa Wi-Fi per a clients, càmeres de seguretat, terminals de venda i un tallafoc (*firewall*) físic per protegir la xarxa.
 * **Seguretat i Continuïtat:** Compliment de la RGPD (protecció de dades) i passarel·les de pagament segures. Inclou la implementació de còpies de seguretat automàtiques (*backups*) i un pla d'actuació en cas d'avaria o incident per garantir que el negoci pugui reprendre l'activitat ràpidament sense pèrdua de dades.
+
 FASE 2:
+
 * **Digitalització de la producció:** Connexió dels nostres horts i cultius amb els clients per oferir total transparència.
 ---
 
