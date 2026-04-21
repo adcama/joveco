@@ -19,21 +19,13 @@ FASE 1:
 FASE 2:
 
 * **Digitalització de la producció:** Connexió dels nostres horts i cultius amb els clients per oferir total transparència.
----
+* La instal·lació física de sensors de temperatura i humitat, plaques solars o sistemes de reg al camp.
+* La connexió tècnica d'aquests sensors de camp amb la pàgina web.
 
 ## 2. Abast del Projecte (Límit de l'actuació tècnica)
 El meu objectiu és dissenyar i desplegar els serveis mínims **necessaris** per tenir la fase 1 acabada en la data acordada. Em **centraré** a deixar el sistema totalment operatiu per a la venda i preparat per a ser escalat en un futur.
 
 ### Què queda fora de l'abast:
-* La instal·lació física de sensors de temperatura i humitat, plaques solars o sistemes de reg al camp.
-* La connexió tècnica d'aquests sensors de camp amb la pàgina web.
-
-##  Fases i Fites (Milestones)
-1.  **Anàlisi i Planificació:** Definició del context, abast i creació del repositori.
-2.  **Disseny i Infraestructura:** Gestió de Hosting, planificació d'infraestructura dins del supermercat i gestió de base de dades.
-3.  **Implementació:** Instal·lació de WordPress, WooCommerce i Dolibarr.
-4.  **Desenvolupament i Proves:** Integració del connector, TPV i script PHP.
-5.  **Documentació:** Redacció de la memòria tècnica i presentació final.
-
+Tot el que s'hagi de fer a la Fase 2.
 ---
 *Aquest projecte ha estat desenvolupat com a part del Mòdul 12 de SMX2.*
