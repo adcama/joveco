@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>JOVECO - Supermercat de proximitat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <img src="img/logo.png" alt="Logo JOVECO" width="120">
+    <h1>JOVECO</h1>
+    <p>Supermercat de proximitat i productes ecològics</p>
+</header>
+
+<nav>
+    <a href="#inici">Inici</a>
+    <a href="#quisom">Qui som</a>
+    <a href="#productes">Productes</a>
+    <a href="#consulta">Consulta</a>
+</nav>
+
+<main style="width: 80%; margin: auto; text-align: center;">
+
+<section id="inici">
+    <h2>Del camp al supermercat</h2>
+
+   <img src="img/camp.jpg?v=10" alt="Camp de cultiu" width="500">
+    <p>
+        JOVECO neix amb la idea de modernitzar un negoci agrícola tradicional
+        i convertir-lo en un supermercat més proper, organitzat i digital.
+    </p>
+</section>
+
+<section id="quisom">
+    <h2>Qui som?</h2>
+
+    <p>
+        JOVECO és un projecte basat en productes de proximitat, fruita i verdura
+        de temporada i una gestió més moderna del supermercat.
+    </p>
+
+    <p>
+        L’objectiu és combinar la venda física amb una part digital, millorant
+        la gestió dels productes, l’estoc i les comandes.
+    </p>
+</section>
+
+<section id="productes">
+    <h2>Productes destacats</h2>
+
+    <p>Aquests són alguns productes destacats de JOVECO.</p>
+
+    <table style="margin: 15px auto; text-align: center;">
+        <tr>
+            <th>Producte</th>
+            <th>Imatge</th>
+            <th>Origen</th>
+            <th>Descripció</th>
+        </tr>
+
+        <tr>
+            <td>Poma Golden</td>
+            <td><img src="img/pomes.jpg?v=10" alt="Poma Golden" width="120"></td>
+            <td>Girona</td>
+            <td>Poma dolça i cruixent, ideal com a producte de temporada.</td>
+        </tr>
+
+        <tr>
+            <td>Tomàquet de proximitat</td>
+            <td><img src="img/tomaquet.jpg" alt="Tomàquet" width="120"></td>
+            <td>Baix Empordà</td>
+            <td>Tomàquet fresc seleccionat per oferir qualitat i bon sabor.</td>
+        </tr>
+
+        <tr>
+            <td>Oli d’oliva</td>
+            <td><img src="img/oli.jpg" alt="Oli d'oliva" width="120"></td>
+            <td>Catalunya</td>
+            <td>Oli d’oliva de qualitat pensat com a producte premium.</td>
+        </tr>
+    </table>
+</section>
+
+<section id="consulta">
+    <h2>Consulta de producte</h2>
+
+    <p>
+        Selecciona un producte per consultar la informació guardada a la base de dades.
+    </p>
+
+   <form action="consulta.php" method="POST" style="margin: auto; width: 350px;">
+        <label for="producte">Producte:</label>
+        <br><br>
+
+        <select name="producte" id="producte">
+            <option value="1">Poma Golden</option>
+            <option value="2">Tomàquet de proximitat</option>
+            <option value="3">Enciam ecològic</option>
+            <option value="4">Oli d’oliva</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Consultar">
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>JOVECO - Supermercat de proximitat</p>
+</footer>
+
+</body>
+</html>
