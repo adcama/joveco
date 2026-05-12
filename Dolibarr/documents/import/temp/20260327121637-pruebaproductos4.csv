@@ -1,0 +1,51 @@
+Ref,Etiqueta,Descripcion,R1,R2,R3,R4,R5,R6,R7,R8,R9,PVP_Sin,PVP_Con,IVA,Venta
+FRU-001,Manzana Golden (1kg),Fruta proximidad,X,X,X,X,X,X,X,X,X,1.78,1.85,4,1
+FRU-002,Platano (1kg),Canarias,X,X,X,X,X,X,X,X,X,2.02,2.10,4,1
+FRU-003,Pera Conferencia (1kg),Fruta local,X,X,X,X,X,X,X,X,X,1.88,1.95,4,1
+FRU-004,Naranja mesa (1kg),Valencia,X,X,X,X,X,X,X,X,X,1.44,1.50,4,1
+FRU-005,Mandarina (1kg),Citrico,X,X,X,X,X,X,X,X,X,2.16,2.25,4,1
+FRU-006,Fresa (500g),Huelva,X,X,X,X,X,X,X,X,X,3.37,3.50,4,1
+FRU-007,Kiwi (ud),Zespri,X,X,X,X,X,X,X,X,X,0.63,0.65,4,1
+FRU-008,Limon (1kg),Murcia,X,X,X,X,X,X,X,X,X,1.68,1.75,4,1
+VER-001,Tomate rama (1kg),Fresco,X,X,X,X,X,X,X,X,X,2.31,2.40,4,1
+VER-002,Cebolla dulce (1kg),Huerta,X,X,X,X,X,X,X,X,X,1.73,1.80,4,1
+VER-003,Patata nueva (5kg),Saco,X,X,X,X,X,X,X,X,X,5.29,5.50,4,1
+VER-004,Zanahoria (1kg),Bolsa,X,X,X,X,X,X,X,X,X,0.91,0.95,4,1
+VER-005,Pimiento rojo (1kg),Fresco,X,X,X,X,X,X,X,X,X,3.08,3.20,4,1
+VER-006,Calabacin (1kg),Huerta,X,X,X,X,X,X,X,X,X,1.83,1.90,4,1
+VER-007,Berenjena (1kg),Fresco,X,X,X,X,X,X,X,X,X,2.02,2.10,4,1
+VER-008,Lechuga (ud),Ensalada,X,X,X,X,X,X,X,X,X,1.06,1.10,4,1
+VER-009,Pepino (1kg),Fresco,X,X,X,X,X,X,X,X,X,1.63,1.70,4,1
+VER-010,Brocoli (500g),Verdura,X,X,X,X,X,X,X,X,X,1.49,1.55,4,1
+LAC-001,Leche entera (1L),Granja,X,X,X,X,X,X,X,X,X,1.01,1.05,4,1
+LAC-002,Leche desnatada (1L),Granja,X,X,X,X,X,X,X,X,X,1.01,1.05,4,1
+LAC-003,Yogur natural (p4),Lacteo,X,X,X,X,X,X,X,X,X,1.15,1.20,4,1
+LAC-004,Yogur griego (p4),Lacteo,X,X,X,X,X,X,X,X,X,1.88,1.95,4,1
+LAC-005,Mantequilla (250g),Lacteo,X,X,X,X,X,X,X,X,X,2.23,2.45,10,1
+QUE-001,Queso Manchego (kg),Curado,X,X,X,X,X,X,X,X,X,17.79,18.50,4,1
+QUE-002,Queso Cabra (ud),Rulo,X,X,X,X,X,X,X,X,X,2.69,2.80,4,1
+QUE-003,Queso Burgos (250g),Fresco,X,X,X,X,X,X,X,X,X,1.83,1.90,4,1
+QUE-004,Queso Azul (100g),Cuña,X,X,X,X,X,X,X,X,X,1.68,1.75,4,1
+QUE-005,Queso Parmesano (200g),Italia,X,X,X,X,X,X,X,X,X,4.04,4.20,4,1
+CAR-001,Pechuga pollo (kg),Fresco,X,X,X,X,X,X,X,X,X,6.73,7.40,10,1
+CAR-002,Muslos pollo (kg),Fresco,X,X,X,X,X,X,X,X,X,4.36,4.80,10,1
+CAR-003,Filete Ternera (kg),Carne,X,X,X,X,X,X,X,X,X,13.18,14.50,10,1
+CAR-004,Carne picada (500g),Mixta,X,X,X,X,X,X,X,X,X,4.09,4.50,10,1
+CAR-005,Chuleta cerdo (kg),Carne,X,X,X,X,X,X,X,X,X,6.18,6.80,10,1
+CAR-006,Lomo cerdo (kg),Carne,X,X,X,X,X,X,X,X,X,6.55,7.20,10,1
+CAR-007,Hamburguesa (p2),Vacuno,X,X,X,X,X,X,X,X,X,2.91,3.20,10,1
+EMB-001,Jamon Serrano (100g),Lonchas,X,X,X,X,X,X,X,X,X,2.18,2.40,10,1
+EMB-002,Jamon Cocido (200g),Extra,X,X,X,X,X,X,X,X,X,1.91,2.10,10,1
+EMB-003,Chorizo dulce (ud),Sarta,X,X,X,X,X,X,X,X,X,2.59,2.85,10,1
+EMB-004,Fuet Vic (ud),Embutido,X,X,X,X,X,X,X,X,X,1.95,2.15,10,1
+EMB-005,Salchichon (100g),Iberico,X,X,X,X,X,X,X,X,X,1.50,1.65,10,1
+PRO-001,Huevos L (docena),Granja,X,X,X,X,X,X,X,X,X,2.36,2.45,4,1
+PRO-002,Aceite Oliva (1L),Virgen,X,X,X,X,X,X,X,X,X,7.73,8.50,10,1
+PRO-003,Arroz redondo (1kg),Grano,X,X,X,X,X,X,X,X,X,1.30,1.35,4,1
+PRO-004,Macarrones (500g),Pasta,X,X,X,X,X,X,X,X,X,0.91,0.95,4,1
+PRO-005,Espaguetis (500g),Pasta,X,X,X,X,X,X,X,X,X,0.91,0.95,4,1
+PRO-006,Harina trigo (1kg),Reposteria,X,X,X,X,X,X,X,X,X,0.82,0.85,4,1
+PRO-007,Azucar blanco (1kg),Dulce,X,X,X,X,X,X,X,X,X,1.27,1.40,10,1
+PRO-008,Sal fina (1kg),Cocina,X,X,X,X,X,X,X,X,X,0.53,0.55,4,1
+PRO-009,Cafe molido (250g),Natural,X,X,X,X,X,X,X,X,X,2.41,2.65,10,1
+PRO-010,Pan molde (ud),Blanco,X,X,X,X,X,X,X,X,X,1.54,1.60,4,1

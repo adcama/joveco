@@ -1,0 +1,10 @@
+2026-04-14T14:30:37+00:00 NOTICE SOAP-ERROR: Parsing WSDL: Couldn't load from 'server_productorservice.php?wsdl' : failed to load external entity "server_productorservice.php?wsdl"
+ CONTEXT: {"_legacy":true}
+2026-04-14T14:34:03+00:00 NOTICE SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://joveco.cat/ERP/htdocs/api/index.php/explorer/server_productorservice.php?wsdl' : failed to load external entity "http://joveco.cat/ERP/htdocs/api/index.php/explorer/server_productorservice.php?wsdl"
+ CONTEXT: {"_legacy":true}
+2026-04-14T14:57:22+00:00 NOTICE SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://joveco.cat/ERP/htdocs/api/index.php/server_productorservice.php?wsdl' : failed to load external entity "http://joveco.cat/ERP/htdocs/api/index.php/server_productorservice.php?wsdl"
+ CONTEXT: {"_legacy":true}
+2026-04-14T15:00:56+00:00 NOTICE SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://joveco.cat/ERP/htdocs/api/index.php/server_productorservice.php?wsdl' : failed to load external entity "http://joveco.cat/ERP/htdocs/api/index.php/server_productorservice.php?wsdl"
+ CONTEXT: {"_legacy":true}
+2026-04-14T15:01:47+00:00 NOTICE getProductsForCategory response: BAD_VALUE_FOR_SECURITY_KEY: Value provided into dolibarrkey entry field does not match security key defined in Webservice module setup CONTEXT: {"_legacy":true}
+2026-04-14T15:03:19+00:00 NOTICE getProductsForCategory response: BAD_VALUE_FOR_SECURITY_KEY: Value provided into dolibarrkey entry field does not match security key defined in Webservice module setup CONTEXT: {"_legacy":true}

@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^$ /htdocs/ [R=301,L]
+
+## Contenido anterior ##
+RewriteEngine on
+RewriteRule ^$ /htdocs/ [R=301,L]
+
+## Fin contenido anterior ##
