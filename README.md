@@ -22,31 +22,5 @@
 
 # 
 
-# \## Contingut del repositori
-
 # 
-
-# Aquest repositori conté principalment la part de desenvolupament web pròpia del projecte, feta amb \*\*HTML\*\*, \*\*CSS\*\* i una petita funcionalitat amb \*\*PHP\*\* connectada a una base de dades.
-
-# 
-
-# L’estructura bàsica del projecte és:
-
-# 
-
-# ```text
-
-# joveco-web/
-
-# ├── index.html
-
-# ├── consulta.php
-
-# ├── css/
-
-# │   └── style.css
-
-# └── img/
-
-# &#x20;   └── imatges del projecte
 
